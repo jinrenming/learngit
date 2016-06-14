@@ -1,0 +1,866 @@
+2016-04-19 09:31:04 [::1][-][dbuh3vmn2t82s0ei3is30bcni4][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20121212/redis.so' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20121212/redis.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-19 09:31:04 [::1][-][dbuh3vmn2t82s0ei3is30bcni4][info][application] $_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.manks.top/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59577'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461058264.09
+    'REQUEST_TIME' => 1461058264
+]
+2016-04-19 09:31:21 [::1][-][dbuh3vmn2t82s0ei3is30bcni4][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20121212/redis.so' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20121212/redis.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-19 09:31:21 [::1][-][dbuh3vmn2t82s0ei3is30bcni4][info][application] $_COOKIE = [
+    'PHPSESSID' => 'dbuh3vmn2t82s0ei3is30bcni4'
+    '_csrf' => '4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.manks.top/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dbuh3vmn2t82s0ei3is30bcni4; _csrf=4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59597'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461058281.169
+    'REQUEST_TIME' => 1461058281
+]
+2016-04-19 09:38:41 [::1][-][dbuh3vmn2t82s0ei3is30bcni4][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20121212/redis.so' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20121212/redis.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-19 09:38:41 [::1][-][dbuh3vmn2t82s0ei3is30bcni4][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'dbuh3vmn2t82s0ei3is30bcni4'
+    '_csrf' => '4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dbuh3vmn2t82s0ei3is30bcni4; _csrf=4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59678'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461058721.733
+    'REQUEST_TIME' => 1461058721
+]
+2016-04-19 09:38:47 [::1][-][dbuh3vmn2t82s0ei3is30bcni4][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20121212/redis.so' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20121212/redis.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-19 09:38:47 [::1][-][dbuh3vmn2t82s0ei3is30bcni4][info][application] $_COOKIE = [
+    'PHPSESSID' => 'dbuh3vmn2t82s0ei3is30bcni4'
+    '_csrf' => '4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_REFERER' => 'http://www.manks.top/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dbuh3vmn2t82s0ei3is30bcni4; _csrf=4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59683'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461058727.352
+    'REQUEST_TIME' => 1461058727
+]
+2016-04-19 09:38:48 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required.' in /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php:180
+Stack trace:
+#0 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\captcha\\Cap...', Array, Array)
+#5 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\captcha\\Cap...', Array, Array)
+#6 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Widget.php(97): yii\BaseYii::createObject(Array)
+#7 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(671): yii\base\Widget::widget(Array)
+#8 /Library/WebServer/Documents/advanced/frontend/views/site/contact.php(35): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#9 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/Library/WebSer...')
+#10 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Library/WebSer...', Array)
+#11 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Library/WebSer...', Array, Object(frontend\controllers\SiteController))
+#12 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('contact', Array, Object(frontend\controllers\SiteController))
+#13 /Library/WebServer/Documents/advanced/frontend/controllers/SiteController.php(130): yii\base\Controller->render('contact', Array)
+#14 [internal function]: frontend\controllers\SiteController->actionContact()
+#15 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#17 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('contact', Array)
+#18 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/contact', Array)
+#19 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Library/WebServer/Documents/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+2016-04-19 09:38:48 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'dbuh3vmn2t82s0ei3is30bcni4'
+    '_csrf' => '4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dbuh3vmn2t82s0ei3is30bcni4; _csrf=4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59683'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461058728.784
+    'REQUEST_TIME' => 1461058728
+]
+2016-04-19 09:38:57 [::1][-][dbuh3vmn2t82s0ei3is30bcni4][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20121212/redis.so' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20121212/redis.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-04-19 09:38:57 [::1][-][dbuh3vmn2t82s0ei3is30bcni4][info][application] $_GET = [
+    'r' => 'site/signup'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'dbuh3vmn2t82s0ei3is30bcni4'
+    '_csrf' => '4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dbuh3vmn2t82s0ei3is30bcni4; _csrf=4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59693'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fsignup'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Fsignup'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461058737.696
+    'REQUEST_TIME' => 1461058737
+]
+2016-04-19 09:39:07 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required.' in /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php:180
+Stack trace:
+#0 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\captcha\\Cap...', Array, Array)
+#5 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\captcha\\Cap...', Array, Array)
+#6 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Widget.php(97): yii\BaseYii::createObject(Array)
+#7 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(671): yii\base\Widget::widget(Array)
+#8 /Library/WebServer/Documents/advanced/frontend/views/site/contact.php(35): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#9 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/Library/WebSer...')
+#10 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Library/WebSer...', Array)
+#11 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Library/WebSer...', Array, Object(frontend\controllers\SiteController))
+#12 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('contact', Array, Object(frontend\controllers\SiteController))
+#13 /Library/WebServer/Documents/advanced/frontend/controllers/SiteController.php(130): yii\base\Controller->render('contact', Array)
+#14 [internal function]: frontend\controllers\SiteController->actionContact()
+#15 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#17 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('contact', Array)
+#18 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/contact', Array)
+#19 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Library/WebServer/Documents/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+2016-04-19 09:39:07 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'PHPSESSID' => 'dbuh3vmn2t82s0ei3is30bcni4'
+    '_csrf' => '4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/48.0.2564.97 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'PHPSESSID=dbuh3vmn2t82s0ei3is30bcni4; _csrf=4d65b837a401ec9c816bdde740ea539fc2b260ade806f77f75a7caeb9246f8b5a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22sPkutbbmEOpNP5uV6jKO5QDQxmpuNDG8%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.31'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '59693'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1461058747.484
+    'REQUEST_TIME' => 1461058747
+]
+2016-05-25 06:14:46 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required.' in /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php:180
+Stack trace:
+#0 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\captcha\\Cap...', Array, Array)
+#5 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\captcha\\Cap...', Array, Array)
+#6 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Widget.php(97): yii\BaseYii::createObject(Array)
+#7 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(671): yii\base\Widget::widget(Array)
+#8 /Library/WebServer/Documents/advanced/frontend/views/site/contact.php(35): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#9 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/Library/WebSer...')
+#10 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Library/WebSer...', Array)
+#11 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Library/WebSer...', Array, Object(frontend\controllers\SiteController))
+#12 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('contact', Array, Object(frontend\controllers\SiteController))
+#13 /Library/WebServer/Documents/advanced/frontend/controllers/SiteController.php(130): yii\base\Controller->render('contact', Array)
+#14 [internal function]: frontend\controllers\SiteController->actionContact()
+#15 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#17 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('contact', Array)
+#18 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/contact', Array)
+#19 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Library/WebServer/Documents/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+2016-05-25 06:14:46 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1462844290279'
+    'Hm_lvt_ecd4feb5c351cc02583045a5813b5142' => '1462844284,1463365971,1463464653'
+    '__utma' => '111872281.83529906.1462844285.1463555110.1463559301.8'
+    '__utmz' => '111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    '_csrf' => 'b34db973ee5cccc7a557a15795be749af7b2fff8c933a82b4e38d5d4e9d12e40a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"3WwN2oSNmxypob9UM2Vu0hfPbSQTqci4\";}'
+    'PHPSESSID' => '6cls645obaagsc9s26vae0n4q7'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'bdshare_firstime=1462844290279; Hm_lvt_ecd4feb5c351cc02583045a5813b5142=1462844284,1463365971,1463464653; __utma=111872281.83529906.1462844285.1463555110.1463559301.8; __utmz=111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); _csrf=b34db973ee5cccc7a557a15795be749af7b2fff8c933a82b4e38d5d4e9d12e40a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%223WwN2oSNmxypob9UM2Vu0hfPbSQTqci4%22%3B%7D; PHPSESSID=6cls645obaagsc9s26vae0n4q7'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.34'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '62406'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464156886.872
+    'REQUEST_TIME' => 1464156886
+]
+2016-05-25 07:03:32 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required.' in /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php:180
+Stack trace:
+#0 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\captcha\\Cap...', Array, Array)
+#5 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\captcha\\Cap...', Array, Array)
+#6 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Widget.php(97): yii\BaseYii::createObject(Array)
+#7 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(671): yii\base\Widget::widget(Array)
+#8 /Library/WebServer/Documents/advanced/frontend/views/site/contact.php(35): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#9 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/Library/WebSer...')
+#10 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Library/WebSer...', Array)
+#11 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Library/WebSer...', Array, Object(frontend\controllers\SiteController))
+#12 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('contact', Array, Object(frontend\controllers\SiteController))
+#13 /Library/WebServer/Documents/advanced/frontend/controllers/SiteController.php(130): yii\base\Controller->render('contact', Array)
+#14 [internal function]: frontend\controllers\SiteController->actionContact()
+#15 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#17 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('contact', Array)
+#18 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/contact', Array)
+#19 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Library/WebServer/Documents/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+2016-05-25 07:03:32 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1462844290279'
+    'Hm_lvt_ecd4feb5c351cc02583045a5813b5142' => '1462844284,1463365971,1463464653'
+    '__utma' => '111872281.83529906.1462844285.1463555110.1463559301.8'
+    '__utmz' => '111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => '6cls645obaagsc9s26vae0n4q7'
+    '_csrf' => '94af888de2ddf93d9b46994d26902a281f53887503bba20fe12957e9f9ddb58da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"h9EjDT4wp6rzmAWVzqudgL9_cD0g_C1d\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/50.0.2661.94 Safari/537.36'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'bdshare_firstime=1462844290279; Hm_lvt_ecd4feb5c351cc02583045a5813b5142=1462844284,1463365971,1463464653; __utma=111872281.83529906.1462844285.1463555110.1463559301.8; __utmz=111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=6cls645obaagsc9s26vae0n4q7; _csrf=94af888de2ddf93d9b46994d26902a281f53887503bba20fe12957e9f9ddb58da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22h9EjDT4wp6rzmAWVzqudgL9_cD0g_C1d%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.34'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '63563'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1464159812.38
+    'REQUEST_TIME' => 1464159812
+]
+2016-06-10 13:38:17 [::1][-][v9rf28rhjvs2g2k7c625r7u6v6][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20121212/memcache.so' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20121212/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-10 13:38:17 [::1][-][v9rf28rhjvs2g2k7c625r7u6v6][info][application] $_COOKIE = [
+    'bdshare_firstime' => '1462844290279'
+    'Hm_lvt_ecd4feb5c351cc02583045a5813b5142' => '1462844284,1463365971,1463464653'
+    'PHPSESSID' => 'v9rf28rhjvs2g2k7c625r7u6v6'
+    '__utmt' => '1'
+    '__utma' => '111872281.83529906.1462844285.1463559301.1465565870.9'
+    '__utmb' => '111872281.2.9.1465565880084'
+    '__utmc' => '111872281'
+    '__utmz' => '111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'bdshare_firstime=1462844290279; Hm_lvt_ecd4feb5c351cc02583045a5813b5142=1462844284,1463365971,1463464653; PHPSESSID=v9rf28rhjvs2g2k7c625r7u6v6; __utmt=1; __utma=111872281.83529906.1462844285.1463559301.1465565870.9; __utmb=111872281.2.9.1465565880084; __utmc=111872281; __utmz=111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.34'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '49548'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465565897.04
+    'REQUEST_TIME' => 1465565897
+]
+2016-06-14 06:52:28 [::1][-][o3jrqqsl1s1e29me7oe6hqi5g3][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20121212/memcache.so' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20121212/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-14 06:52:28 [::1][-][o3jrqqsl1s1e29me7oe6hqi5g3][info][application] $_COOKIE = [
+    'bdshare_firstime' => '1462844290279'
+    'Hm_lvt_ecd4feb5c351cc02583045a5813b5142' => '1462844284,1463365971,1463464653'
+    '__utma' => '111872281.83529906.1462844285.1463559301.1465565870.9'
+    '__utmz' => '111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'bdshare_firstime=1462844290279; Hm_lvt_ecd4feb5c351cc02583045a5813b5142=1462844284,1463365971,1463464653; __utma=111872281.83529906.1462844285.1463559301.1465565870.9; __utmz=111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.34'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '60491'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/advanced/frontend/web/'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465887148.743
+    'REQUEST_TIME' => 1465887148
+]
+2016-06-14 06:52:37 [::1][-][o3jrqqsl1s1e29me7oe6hqi5g3][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20121212/memcache.so' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20121212/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-14 06:52:37 [::1][-][o3jrqqsl1s1e29me7oe6hqi5g3][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1462844290279'
+    'Hm_lvt_ecd4feb5c351cc02583045a5813b5142' => '1462844284,1463365971,1463464653'
+    '__utma' => '111872281.83529906.1462844285.1463559301.1465565870.9'
+    '__utmz' => '111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'o3jrqqsl1s1e29me7oe6hqi5g3'
+    '_csrf' => '02f70b2c7f4127f9f9ce6ed653403724c54d8d7598fcd7af5ab7ba41b5073a75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"poamSNzLcguIfG22t_27YNrizulaLgEY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'bdshare_firstime=1462844290279; Hm_lvt_ecd4feb5c351cc02583045a5813b5142=1462844284,1463365971,1463464653; __utma=111872281.83529906.1462844285.1463559301.1465565870.9; __utmz=111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=o3jrqqsl1s1e29me7oe6hqi5g3; _csrf=02f70b2c7f4127f9f9ce6ed653403724c54d8d7598fcd7af5ab7ba41b5073a75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22poamSNzLcguIfG22t_27YNrizulaLgEY%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.34'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '60496'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465887157.489
+    'REQUEST_TIME' => 1465887157
+]
+2016-06-14 06:52:43 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required.' in /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php:180
+Stack trace:
+#0 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\captcha\\Cap...', Array, Array)
+#5 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\captcha\\Cap...', Array, Array)
+#6 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Widget.php(97): yii\BaseYii::createObject(Array)
+#7 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(671): yii\base\Widget::widget(Array)
+#8 /Library/WebServer/Documents/advanced/frontend/views/site/contact.php(35): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#9 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/Library/WebSer...')
+#10 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Library/WebSer...', Array)
+#11 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Library/WebSer...', Array, Object(frontend\controllers\SiteController))
+#12 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('contact', Array, Object(frontend\controllers\SiteController))
+#13 /Library/WebServer/Documents/advanced/frontend/controllers/SiteController.php(130): yii\base\Controller->render('contact', Array)
+#14 [internal function]: frontend\controllers\SiteController->actionContact()
+#15 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#17 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('contact', Array)
+#18 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/contact', Array)
+#19 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Library/WebServer/Documents/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+2016-06-14 06:52:43 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1462844290279'
+    'Hm_lvt_ecd4feb5c351cc02583045a5813b5142' => '1462844284,1463365971,1463464653'
+    '__utma' => '111872281.83529906.1462844285.1463559301.1465565870.9'
+    '__utmz' => '111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'o3jrqqsl1s1e29me7oe6hqi5g3'
+    '_csrf' => '02f70b2c7f4127f9f9ce6ed653403724c54d8d7598fcd7af5ab7ba41b5073a75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"poamSNzLcguIfG22t_27YNrizulaLgEY\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'bdshare_firstime=1462844290279; Hm_lvt_ecd4feb5c351cc02583045a5813b5142=1462844284,1463365971,1463464653; __utma=111872281.83529906.1462844285.1463559301.1465565870.9; __utmz=111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=o3jrqqsl1s1e29me7oe6hqi5g3; _csrf=02f70b2c7f4127f9f9ce6ed653403724c54d8d7598fcd7af5ab7ba41b5073a75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22poamSNzLcguIfG22t_27YNrizulaLgEY%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.34'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '60497'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465887163.503
+    'REQUEST_TIME' => 1465887163
+]
+2016-06-14 06:52:55 [::1][-][o3jrqqsl1s1e29me7oe6hqi5g3][error][yii\base\ErrorException:32] exception 'yii\base\ErrorException' with message 'PHP Startup: Unable to load dynamic library '/usr/lib/php/extensions/no-debug-non-zts-20121212/memcache.so' - dlopen(/usr/lib/php/extensions/no-debug-non-zts-20121212/memcache.so, 9): image not found' in Unknown:0
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-06-14 06:52:55 [::1][-][o3jrqqsl1s1e29me7oe6hqi5g3][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1462844290279'
+    'Hm_lvt_ecd4feb5c351cc02583045a5813b5142' => '1462844284,1463365971,1463464653'
+    '__utma' => '111872281.83529906.1462844285.1463559301.1465565870.9'
+    '__utmz' => '111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'o3jrqqsl1s1e29me7oe6hqi5g3'
+    '_csrf' => '02f70b2c7f4127f9f9ce6ed653403724c54d8d7598fcd7af5ab7ba41b5073a75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"poamSNzLcguIfG22t_27YNrizulaLgEY\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'bdshare_firstime=1462844290279; Hm_lvt_ecd4feb5c351cc02583045a5813b5142=1462844284,1463365971,1463464653; __utma=111872281.83529906.1462844285.1463559301.1465565870.9; __utmz=111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=o3jrqqsl1s1e29me7oe6hqi5g3; _csrf=02f70b2c7f4127f9f9ce6ed653403724c54d8d7598fcd7af5ab7ba41b5073a75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22poamSNzLcguIfG22t_27YNrizulaLgEY%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.34'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '60504'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465887175.896
+    'REQUEST_TIME' => 1465887175
+]
+2016-06-14 06:52:59 [::1][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required.' in /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php:180
+Stack trace:
+#0 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/captcha/Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Object.php(107): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\Object->__construct(Array)
+#3 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(374): ReflectionClass->newInstanceArgs(Array)
+#4 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/di/Container.php(153): yii\di\Container->build('yii\\captcha\\Cap...', Array, Array)
+#5 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/BaseYii.php(344): yii\di\Container->get('yii\\captcha\\Cap...', Array, Array)
+#6 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Widget.php(97): yii\BaseYii::createObject(Array)
+#7 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/widgets/ActiveField.php(671): yii\base\Widget::widget(Array)
+#8 /Library/WebServer/Documents/advanced/frontend/views/site/contact.php(35): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#9 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(325): require('/Library/WebSer...')
+#10 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(247): yii\base\View->renderPhpFile('/Library/WebSer...', Array)
+#11 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/View.php(149): yii\base\View->renderFile('/Library/WebSer...', Array, Object(frontend\controllers\SiteController))
+#12 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(377): yii\base\View->render('contact', Array, Object(frontend\controllers\SiteController))
+#13 /Library/WebServer/Documents/advanced/frontend/controllers/SiteController.php(130): yii\base\Controller->render('contact', Array)
+#14 [internal function]: frontend\controllers\SiteController->actionContact()
+#15 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/InlineAction.php(55): call_user_func_array(Array, Array)
+#16 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Controller.php(154): yii\base\InlineAction->runWithParams(Array)
+#17 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Module.php(454): yii\base\Controller->runAction('contact', Array)
+#18 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/web/Application.php(84): yii\base\Module->runAction('site/contact', Array)
+#19 /Library/WebServer/Documents/advanced/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 /Library/WebServer/Documents/advanced/frontend/web/index.php(18): yii\base\Application->run()
+#21 {main}
+2016-06-14 06:52:59 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_COOKIE = [
+    'bdshare_firstime' => '1462844290279'
+    'Hm_lvt_ecd4feb5c351cc02583045a5813b5142' => '1462844284,1463365971,1463464653'
+    '__utma' => '111872281.83529906.1462844285.1463559301.1465565870.9'
+    '__utmz' => '111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none)'
+    'PHPSESSID' => 'o3jrqqsl1s1e29me7oe6hqi5g3'
+    '_csrf' => '02f70b2c7f4127f9f9ce6ed653403724c54d8d7598fcd7af5ab7ba41b5073a75a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"poamSNzLcguIfG22t_27YNrizulaLgEY\";}'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.84 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/advanced/frontend/web/index.php?r=site%2Fsignup'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'zh-CN,zh;q=0.8,en;q=0.6'
+    'HTTP_COOKIE' => 'bdshare_firstime=1462844290279; Hm_lvt_ecd4feb5c351cc02583045a5813b5142=1462844284,1463365971,1463464653; __utma=111872281.83529906.1462844285.1463559301.1465565870.9; __utmz=111872281.1462844285.1.1.utmcsr=(direct)|utmccn=(direct)|utmcmd=(none); PHPSESSID=o3jrqqsl1s1e29me7oe6hqi5g3; _csrf=02f70b2c7f4127f9f9ce6ed653403724c54d8d7598fcd7af5ab7ba41b5073a75a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22poamSNzLcguIfG22t_27YNrizulaLgEY%22%3B%7D'
+    'PATH' => '/usr/bin:/bin:/usr/sbin:/sbin'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache/2.4.18 (Unix) PHP/5.5.34'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/Library/WebServer/Documents'
+    'SERVER_ADMIN' => 'you@example.com'
+    'SCRIPT_FILENAME' => '/Library/WebServer/Documents/advanced/frontend/web/index.php'
+    'REMOTE_PORT' => '60504'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/advanced/frontend/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/advanced/frontend/web/index.php'
+    'PHP_SELF' => '/advanced/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1465887179.671
+    'REQUEST_TIME' => 1465887179
+]
